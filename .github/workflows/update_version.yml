@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - score   # ajoute ici toutes les branches où tu fais des commits
 
 jobs:
   update-version:
